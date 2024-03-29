@@ -24,6 +24,21 @@ body {
     font-family: 'Arial', sans-serif;
     color: #333;
     background-color: #f4f4f4;
+    animation-name: animacaoOpacity;
+    animation-duration: 1.5s;
+}
+
+@keyframes animacaoOpacity {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
 }
 
 main {
